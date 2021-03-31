@@ -17,3 +17,6 @@ myForm.addEventListener('submit', event => {
 
 myForm.addEventListener('submit', handleFormSubmitted);
 
+let nums = [5, 3, 9, 2, 1];
+let results = nums.map(num => num * 3);
+console.log(results);
